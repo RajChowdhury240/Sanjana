@@ -1,11 +1,14 @@
 // Every fact here comes from Sanjana's résumé (resume.tex), about-me.txt or
 // the previous site's copy. Do not invent metrics or endorsements.
 
+import { asset } from "@/lib/asset";
+
 export const person = {
   name: "Sanjana Karfa",
   email: "karfasanjana@gmail.com",
   linkedin: "https://www.linkedin.com/in/sanjana-karfa/",
-  resume: "/Sanjana-Karfa-Resume.pdf",
+  resume: asset("/Sanjana-Karfa-Resume.pdf"),
+  photo: asset("/Sanjana.jpg"),
   location: "Burdwan, West Bengal, India",
 };
 

@@ -28,7 +28,7 @@ export function Hero() {
         <div className="highlights" aria-label="Highlights">
           <figure className="tile tile-photo">
             <Image
-              src="/Sanjana.jpg"
+              src={person.photo}
               alt="Portrait of Sanjana Karfa"
               fill
               preload
